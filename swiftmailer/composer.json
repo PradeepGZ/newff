@@ -1,0 +1,12 @@
+{
+    "name": "gozoop/pradeep",
+    "authors": [
+        {
+            "name": "Pradeep",
+            "email": "pradeep@email.gozoop.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^5.0"
+    }
+}

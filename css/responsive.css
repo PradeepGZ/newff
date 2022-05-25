@@ -1,0 +1,290 @@
+/* for Mobile Device */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      
+      
+      .top-content {
+    padding-left: 0px !important;
+}
+
+    .offset-div1.offset-2
+    {
+        margin-left: 0;
+    }
+
+    #testimonials .col-md-6
+    {
+        text-align: center !important;
+    }
+
+
+    .form-ft-area::after {
+        position: absolute;
+        content: attr(data-label);
+        top: -40px;
+        padding: 8px;
+        width: 10rem;
+        background: #FAD450;
+        color: #224D94;
+        text-align: center;
+        font-family: "Manrope-Regular";
+        z-index: 99;
+        left: 115px;
+        transform: translate(0, 0) rotate(0deg);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+
+    .form-ft-area
+    {
+        margin-bottom: 25px;
+    }
+
+    .float
+    {
+        right: 5px;
+    }
+
+    .video-play-icon
+    {
+        margin-top: -22px;
+    }
+
+    #main #faq .card .card-header .btn-header-link.collapsed, #main #faq .card .card-header .btn-header-link.collapsed
+    {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+    }
+
+
+
+    #getInTouch .register-form
+    {
+        width: 100%;
+        padding: 5px 10px 20px 10px;
+    }
+
+    .home-section
+    {
+    /*background: url(../images/Landing-Page-Image-mobile.jpg) top left no-repeat;*/
+     /* background: url(../images/Landing-Page-Image-mobilee2.jpg) top left no-repeat;
+    background-size: cover;
+      background-position-y: 20px;
+    background-position-x: -65px; */
+    background: url(../images/Landing-Page-Image-500x900.jpg) top left no-repeat;
+    background-size: cover;
+    background-position-y: 20px;
+    background-position-x: -80px;
+    }
+
+    .float-desktop
+    {
+        position: fixed;
+        width: 100%;
+        height: auto;
+        bottom: 0px;
+        right: 0px;
+        background-color: #282145;
+        color: #FFF;
+        border-radius: 0;
+        text-align: center;
+        box-shadow: 1px 2px 2px #999;
+        cursor: pointer;
+        z-index: 99999;
+        font-family: "Manrope-SemiBold";
+    }
+
+    .float
+    {
+        display: none;
+    }
+    .float-desktop 
+    {
+        display: block;
+    }
+
+    .register-form-wrapper
+    {
+           padding: 60px 10px;
+        position: relative;
+        top: -10%;
+    }
+
+    .navbar-fixed-top
+    {
+        padding-bottom: 15px;
+    }
+
+    .fly-bg
+    {
+        background: none;
+    }
+
+    .home-section
+    {
+        padding-top: 0;
+    padding-bottom: 0px;
+    }
+
+    .rocket_top {
+        position: relative;
+        top: -15%;
+        left: -87px;
+    }
+    
+      .flickity-prev-next-button.previous {
+        left: -10px !important;
+    }
+
+
+    .flickity-prev-next-button.next {
+        right: -10px !important;
+    }
+    
+}
+
+
+
+/* ==================================== Media For 1280 Desktop ====================== */
+
+
+/*1280 x 768*/
+/*@media screen and (max-width: 1280px) and (max-height: 768px) and (min-height: 721px) {*/
+/*    .top-content {*/
+/*        padding-left: 130px;*/
+/*    }*/
+
+/*    h1.padding-top-150*/
+/*    {*/
+/*        font-size: 27px;*/
+/*    }*/
+/*    .home-subtitle {*/
+/*        font-size: 23px;*/
+/*        color: #fff;*/
+/*        font-weight: 500;*/
+/*        font-family: 'Manrope-Regular';*/
+/*    }*/
+
+/*    .home-section .divider {*/
+/*        border-top: 2px solid #fff;*/
+/*        width: 93%;*/
+/*    }*/
+
+/*    .home-section p.hero-text*/
+/*    {*/
+/*        font-size: 23px;*/
+/*        line-height: 30px;*/
+/*    }*/
+
+/*    .register-form-wrapper*/
+/*    {*/
+/*        padding: 25px 15px;*/
+/*        padding-bottom: 55px; */
+/*    }*/
+/*    .register-form-wrapper p {*/
+/*        margin-bottom: 15px;*/
+/*        font-size: 15px;*/
+/*        color: #000;*/
+/*        line-height: 22px;*/
+/*    }*/
+/*    .register-form-wrapper h3 {*/
+/*        margin-bottom: 5px;*/
+/*        font-size: 20px;*/
+/*        font-weight: 500;*/
+/*    }*/
+ 
+/*}*/
+
+@media only screen and (max-width: 1280px) {
+    .top-content {
+        padding-left: 130px;
+    }
+
+    h1.padding-top-150
+    {
+        font-size: 25px;
+    }
+    .home-subtitle {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 500;
+        font-family: 'Manrope-Regular';
+    }
+
+    .home-section .divider {
+        border-top: 2px solid #fff;
+        width: 93%;
+    }
+
+    .home-section p.hero-text
+    {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .register-form-wrapper
+    {
+        padding: 25px 10px;
+         padding-bottom: 0px;
+    }
+    .register-form-wrapper p {
+      margin-bottom: 15px;
+    font-size: 12px;
+    color: #000;
+    line-height: 18px;
+    }
+    .register-form-wrapper h3 {
+        margin-bottom: 5px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .register-form-wrapper
+    {
+        margin-top: 0px;
+    }
+    
+    .flickity-prev-next-button.previous {
+    left: -60px;
+}
+
+.flickity-prev-next-button.next {
+    right: -60px;
+}
+
+} 
+
+
+@media only screen and (max-width: 1366px) {
+    .top-content {
+    padding-left: 100px;
+}
+
+.register-form-wrapper p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #000;
+    line-height: 20px;
+}
+
+.register-form-wrapper h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+}
+
+
+@media only screen and (max-width: 1536px) {
+    .top-content {
+    padding-left: 64px;
+}
+}
+
+

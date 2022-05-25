@@ -1,0 +1,10 @@
+[23-May-2022 07:58:03 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/gozoocxi/public_html/gz-projects/fairfuture/admin/shared/functions.php:13
+Stack trace:
+#0 /home2/gozoocxi/public_html/gz-projects/fairfuture/admin/index.php(10): getMembersList()
+#1 {main}
+  thrown in /home2/gozoocxi/public_html/gz-projects/fairfuture/admin/shared/functions.php on line 13
+[23-May-2022 07:58:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/gozoocxi/public_html/gz-projects/fairfuture/admin/shared/functions.php:13
+Stack trace:
+#0 /home2/gozoocxi/public_html/gz-projects/fairfuture/admin/index.php(10): getMembersList()
+#1 {main}
+  thrown in /home2/gozoocxi/public_html/gz-projects/fairfuture/admin/shared/functions.php on line 13
