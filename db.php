@@ -3,7 +3,7 @@ ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_report
 
 class Database {
 
-    private $host = "localhost";
+    private $host = "fairfuture-do-user-2709110-0.b.db.ondigitalocean.com";
     //fairfuture-do-user-2709110-0.b.db.ondigitalocean.com
     private $db_name = "fairfuture";
     private $username = "fair";
